@@ -22,3 +22,11 @@ $ sudo chmod 777 /home/bimal/.local/lib/python3.10/site-packages/setuptools-egg.
 $ rm -r /home/bimal/.local/lib/python3.10/site-packages/setuptools-egg.infoXX/ file
 --------------------------------------------------------------------------
 ```
+
+
+## Platformio cannot find the interpreter
+```
+# Likely venv is not installed install it using
+-----------------------------
+$ sudo apt install python3-venv
+```
