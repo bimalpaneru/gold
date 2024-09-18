@@ -30,3 +30,15 @@ $ rm -r /home/bimal/.local/lib/python3.10/site-packages/setuptools-egg.infoXX/ f
 -----------------------------
 $ sudo apt install python3-venv
 ```
+
+
+## Foxy-Proxy connect to remote machine to access services
+```
+# From your localhost bind the address to a port
+$ ssh -D 5050 user@remote-hostname
+
+# Use this settings on the foxyproxy
+Hostname: locahost
+Port: 5050
+Type: SOCKS4
+```
