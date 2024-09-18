@@ -42,3 +42,7 @@ Hostname: locahost
 Port: 5050
 Type: SOCKS4
 ```
+
+
+## Read  data on a port using `socat`
+`$ socat - TCP:<hostip>:<port>`
